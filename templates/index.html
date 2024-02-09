@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ANU LISBA RAJ'S PORTFOLIO</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&family=Protest+Riot&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+	<header>
+		<a href="#" class="logo">PORT<span>FOLIO.</span></a>
+
+		<div class="bx bx-menu" id="menu-icon"></div>
+		<ul class="navlist">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#certifications">Certifications</a></li>
+			<li><a href="#projects">Projects</a></li>
+		</ul>
+		<div class="top-bttn">
+			<a href="#end-section" class="h-btn">Contact me</a>
+		</div>
+	</header>
+	<section class="hero" id="home">
+		<div class="main-content" data-aos="fade-in">
+			<h4>Hi, there!</h4>
+			<h1>I'm <span>Anu Lisba Raj M </span></h1>
+			<p>Student at Sahrdaya College of Engineering & Technology</p>
+			<div class="social">
+    			<a href="https://www.facebook.com/anu.lisbaraj?mibextid=ZbWKwL" target="_blank"><i class="ri-facebook-line"></i></a>
+    			<a href="https://www.instagram.com/_anu.lisba.raj_?igsh=Zm81a3BtanVmaTU=" target="_blank"><i class="ri-instagram-line"></i></a>
+    			<a href="https://www.linkedin.com/in/anu-lisba-raj-60097b206" target="_blank"><i class="ri-linkedin-line"></i></a>
+			</div>
+		</div>
+	</section>
+	<section class="about" id="about">
+		<div class="abt-main" >
+		<div class="about-img">
+			<img src="{{ url_for('static', filename='about.png') }}" alt="profile picture">
+		</div>
+		<div class="about-text">
+			<h2>I am <span>Computer Science Engineering</span> Student</h2>
+			<div class="exp-area">
+				<p class="exp">
+					Education:<span>B.tech in Computer Science & Engineering</span>
+				</p>
+				<p class="exp">
+					Adress:
+					<span>Calicut, kerala, India</span>
+				</p>
+				<p class="exp">
+					Email:
+					<span> anulisbarajm@gmail.com </span>
+				</p>
+				<p class="exp">
+					Contact No:
+					<span> 7034864957 </span>
+				</p>
+				<p class="exp">
+					Languages:<span>English, Malayalam</span>
+				</p>
+				<p class="exp">
+					Other Intrests:<span>Drawing , Designing</span>
+				</p>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section class="skills" id="skills">
+		<div class="center-text">
+			<h2>My <span>Skills</span></h2>
+		</div>
+		<div class="skill-main">
+			<div class="skill-left">
+				<h2>Technical Skills</h2>
+				<div class="skill-bar">
+					<div class="info">
+						<p>Python</p>
+						<p>80%</p>
+					</div>
+					<div class="bar">
+						<span class="python"></span>
+					</div>
+				</div>
+
+				<div class="skill-bar">
+					<div class="info">
+						<p>C</p>
+						<p>60%</p>
+					</div>
+					<div class="bar">
+						<span class="c"></span>
+					</div>
+				</div>
+
+				<div class="skill-bar">
+					<div class="info">
+						<p>HTML</p>
+						<p>75%</p>
+					</div>
+					<div class="bar">
+						<span class="html"></span>
+					</div>
+				</div>
+
+				<div class="skill-bar">
+					<div class="info">
+						<p>CSS</p>
+						<p>60%</p>
+					</div>
+					<div class="bar">
+						<span class="css"></span>
+					</div>
+				</div>
+
+
+			</div>
+			<div class="skill-right">
+				<h2>Professional skills</h2>
+				<div class="professional">
+					<div class="box">
+						<div class="circle" data-dots="80" data-percent="90"></div>
+						<div class="text">
+							<big>90%</big>
+							<small>Time Management</small>
+						</div>
+					</div>
+					<div class="box">
+						<div class="circle" data-dots="80" data-percent="80"></div>
+						<div class="text">
+							<big>80%</big>
+							<small>Team Work</small>
+						</div>
+					</div>
+					<div class="box">
+						<div class="circle" data-dots="80" data-percent="75"></div>
+						<div class="text">
+							<big>75%</big>
+							<small>Creativity</small>
+						</div>
+					</div>
+					<div class="box">
+						<div class="circle" data-dots="80" data-percent="70"></div>
+						<div class="text">
+							<big>70%</big>
+							<small>Adaptability</small>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<section class="certifications" id="certifications">
+		<div class="main-text">
+			<h2>My <span>Certifications</span></h2>
+		</div>
+		<div class="container">
+			<div class="portfolio-gallery">
+				<div class="port-box">
+					<div class="port-img">
+						<img src="{{ url_for('static', filename='certi1.jpeg') }}" alt="nptel certificate">
+					</div>
+					<div class="port-content">
+						<h2> NPTEL Certification on Deep Learning</h2>
+					</div>
+				</div>
+				<div class="port-box">
+					<div class="port-img">
+						<img src="{{ url_for('static', filename='certi2.jpg') }}" alt="internship certificate">
+					</div>
+					<div class="port-content">
+						<h2>2 Months Internship on Python, MongoDB & Flask</h2>
+					</div>
+				</div>
+				<div class="port-box">
+					<div class="port-img">
+						<img src="{{ url_for('static', filename='certi3.jpg') }}" alt="internshala certificate">
+					</div>
+					<div class="port-content">
+						<h2>Certifiaction on Webdevelopment offered by Internshala</h2>
+					</div>
+				</div>
+				<div class="port-box">
+					<div class="port-img">
+						<img src="{{ url_for('static', filename='certi4.jpg') }}" alt="udemy certificate">
+					</div>
+					<div class="port-content">
+						<h2>Certification on Webdevelopment offered by Udemy</h2>
+					</div>
+				</div>
+				<div class="port-box">
+					<div class="port-img">
+						<img src="{{ url_for('static', filename='certi5.png') }}" alt="altair certificate">
+					</div>
+					<div class="port-content">
+						<h2>Volunteer at Altair flagship event</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="projects" id="projects">
+		<div class="main-text">
+			<h2>My <span>Projects</span></h2>
+		</div>
+			<div class="project-list">
+				<div>
+					<h2>Language Bridge</h2><p>Customer service system using converstional IVR</p>
+					<a href="{{ url_for('nlp') }}" class="h-btn">Know More</a>
+				</div>
+				<div>
+					<h2>Skin Disease Detector</h2>
+					<p>Skin Disease Detector using machine learning and image processing</p>
+					<a href="{{ url_for('skind') }}" class="h-btn">Know More</a>
+				</div>
+			</div>
+
+	</section>
+	<section class="end-section" id="end-section">
+		<h2>Anu Lisba Raj M</h2>
+		<p>Get in touch with ME!</p>
+		<div class="end-icons">
+			<p><span>Email:</span> anulisbarajm@gmail.com</p>
+			<p><span>Phone no:</span> 7034864957</p>
+			<a href="https://www.facebook.com/anu.lisbaraj?mibextid=ZbWKwL"><i class='bx bxl-facebook'></i></a>
+			<a href="https://www.instagram.com/_anu.lisba.raj_?igsh=Zm81a3BtanVmaTU="><i class='bx bxl-instagram-alt' ></i></a>
+			<a href="https://www.linkedin.com/in/anu-lisba-raj-60097b206"><i class='bx bxl-linkedin' ></i></a>
+		</div>
+	</section>
+	<script src="{{ url_for('static', filename='script.js') }}"></script>
+	  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	  <script>
+		AOS.init({
+			offset: 30,
+			duration: 1400,
+		});
+	  </script>
+</body>
+</html>
