@@ -74,4 +74,4 @@ def add_comment():
     return jsonify(success=True, message='Comment added successfully')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False,host='0.0.0.0')
